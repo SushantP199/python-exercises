@@ -1,0 +1,156 @@
+Microsoft Windows [Version 10.0.18362.418]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\sushant>python
+Python 3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:21:23) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> val1 = 33
+>>> val2 = 10
+>>> val1 + val2
+43
+>>> val1 - val2
+23
+>>> val1 * val2
+330
+>>> val1 / val2
+3.3
+>>> val1 // val2
+3
+>>> val % val2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'val' is not defined
+>>> val1 % val2
+3
+>>> val1 ** val2
+1531578985264449
+>>> val1 **** val2
+  File "<stdin>", line 1
+    val1 **** val2
+           ^
+SyntaxError: invalid syntax
+>>> val1 **** val2
+  File "<stdin>", line 1
+    val1 **** val2
+           ^
+SyntaxError: invalid syntax
+>>> val1 *** val2
+  File "<stdin>", line 1
+    val1 *** val2
+           ^
+SyntaxError: invalid syntax
+>>> val1 == val2
+False
+>>> val1 < val2
+False
+>>> val1 != val2
+True
+>>> val1 > val2
+True
+>>> val1 >= val2
+True
+>>> val1 <= val2
+False
+>>> val1 =< val2
+  File "<stdin>", line 1
+    val1 =< val2
+          ^
+SyntaxError: invalid syntax
+>>> val1 === val2
+  File "<stdin>", line 1
+    val1 === val2
+           ^
+SyntaxError: invalid syntax
+>>> 1=2
+  File "<stdin>", line 1
+SyntaxError: cannot assign to literal
+>>> 1==2
+False
+>>> 1!=0
+True
+>>> 1==1
+True
+>>> 2==2.0
+True
+>>> val = True
+>>> val
+True
+>>> val!=False
+True
+>>> val!
+  File "<stdin>", line 1
+    val!
+       ^
+SyntaxError: invalid syntax
+>>> val_! =2
+  File "<stdin>", line 1
+    val_! =2
+        ^
+SyntaxError: invalid syntax
+>>> val and val1
+33
+>>> val
+True
+>>> val2 and val1
+33
+>>> val1
+33
+>>> val2
+10
+>>> val2 and val1
+33
+>>> val2 or val1
+10
+>>> not val1
+False
+>>> x=True
+>>> y=False
+>>> xand y
+  File "<stdin>", line 1
+    xand y
+         ^
+SyntaxError: invalid syntax
+>>> x and y
+False
+>>> x or y
+True
+>>> x and not y
+True
+>>> not y
+True
+>>> x and (not y)
+True
+>>> not(x and (not y))
+False
+>>> list1=[2,4,5,7,6]
+>>> val=1
+>>> val in list1
+False
+>>> val=2
+>>> val in list1
+True
+>>> a=100
+>>> b=100
+>>> id(100)
+1758580192
+>>> id(a)
+1758580192
+>>> id(b)
+1758580192
+>>> c=101
+>>> id(101)
+1758580208
+>>> id(c)
+1758580208
+>>> a=b=100
+>>> a=b=200
+>>> b
+200
+>>> a
+200
+>>> id(200)
+1758581792
+>>> id(a)
+1758581792
+>>> id(b)
+1758581792
